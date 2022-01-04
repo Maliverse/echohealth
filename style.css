@@ -73,13 +73,15 @@ nav a{
   
   }
 .doctorimage{
- 
+ position: relative;
  height: 150px;
- width: 300px;
+ min-height: 100px;
+ min-width: 450px;
  display: flex;
  align-self: center;
  flex-direction: column;
  margin-bottom: 100px;
+ justify-content: space-around;
  margin-top: 100px;
 
 }
@@ -641,5 +643,6 @@ a{
 .tagline{
   padding-top: 50px;
   font-size: 15px;
+  text-align: center;
 }
 }
