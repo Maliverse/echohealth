@@ -76,7 +76,9 @@ nav a{
  position: relative;
  height: 150px;
  min-height: 100px;
- min-width: 450px;
+ max-height: 100px;
+ min-width: 250px;
+ max-width: 250px;
  display: flex;
  align-self: center;
  flex-direction: column;
@@ -89,7 +91,7 @@ nav a{
 
 .home-hero{
   height: 700px;
-  background-color: #f0f0f0;
+  background-color: #008484;
   background-position: center;
   background-size: cover;
   background-image: url(img/background.png);
@@ -145,7 +147,7 @@ nav a{
 
 h1{
   font-size: 30px;
-  color: #005C5C;
+  color: #ffffff;
   text-align: center;
   font-weight: bold;
 }
@@ -180,7 +182,7 @@ button{
  
   font-size: 35px;
   border-radius: 10px;
-  background-color: #2359B2;
+  background-color: #26B223;
   padding: .5em .8em;
   text-align: center;
   color:  #fff;
@@ -197,18 +199,9 @@ button{
   text-align: left;
 
 }
-
-
 .who-we-are{
-  
- 
-  background-size: contain;
-  background-image: url(img/doodles.jpg);
+  padding: 50px;
   text-align: center;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  
 }
 
 .who-we-are2{
@@ -251,11 +244,13 @@ justify-content: center;
   padding: 20px;
   text-align: center;
 }
-.partner-logos{
-  width: 50vw;
+.partner-logos img{
+
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 300px;
+  height: 100%;
  
 }
 .base-prompt{
@@ -286,6 +281,8 @@ footer{
 
 .footer-heading{
   color: white;
+  text-align: left;
+  padding: 0;
  
 }
 .col-1{
@@ -428,6 +425,9 @@ footer{
     background-image: url(img/doodles.jpg);
     width: 100%;
     padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*margin-left: 200px;
     margin-right: 200px; */
   
@@ -574,6 +574,15 @@ footer{
     align-items: center;
     padding: 20px;
   }
+  .partner-logos img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+    height: 100%;
+   
+  }
   .base-prompt{
     width: 100%;
     height: 206px;
@@ -642,6 +651,7 @@ footer{
 
 .footer-heading{
   color: white;
+text-align: center;
 }
 
 
