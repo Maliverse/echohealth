@@ -74,11 +74,8 @@ nav a{
   }
 .doctorimage{
  position: relative;
- height: 150px;
- min-height: 100px;
- max-height: 100px;
- min-width: 250px;
- max-width: 250px;
+ max-width: 90%;
+ max-height: 200px;
  display: flex;
  align-self: center;
  flex-direction: column;
